@@ -1,3 +1,4 @@
+import "./Home.css"
 import { useContext } from "react"
 import { AppContext } from '../Router-dom'
 import { useQuery } from '@tanstack/react-query'
@@ -27,12 +28,14 @@ export const Home = () => {
   }
 
   return (
-    <div>
+    <div className="home">
       <h1>
-      This is a home page and user is: {username}
+      Welcome to home page: "{username}""
       </h1>
-      <h2> {data?.fact}</h2>
-      <button onClick={refetch}>Update Data</button>
+      <h2>Here is a random Cat Fact:</h2>
+      <p> {data?.fact}</p>
+      <button className="homebutton"
+      onClick={refetch}>Update Data</button>
     </div>
   )
 }

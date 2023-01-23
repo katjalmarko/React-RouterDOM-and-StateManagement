@@ -1,0 +1,25 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.home h2 {
+  color: brown;
+}
+
+.home p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 700px;
+  height: 80px;
+  border: 1px transparent black;
+  text-align: center;
+}
+
+.homebutton {
+  margin-top: 15px;
+  width: 100px
+}
