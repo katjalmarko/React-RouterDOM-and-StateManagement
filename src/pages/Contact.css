@@ -1,0 +1,9 @@
+.contactButtons {
+  display: flex;
+  justify-content: center;
+}
+
+.contact > h2 {
+  display: flex;
+  justify-content: center;
+}
