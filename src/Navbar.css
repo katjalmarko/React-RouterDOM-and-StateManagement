@@ -1,0 +1,80 @@
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 390px;
+  font-size: 25px;
+}
+
+.Navbar a {
+  text-decoration: none;
+  color: azure;
+}
+
+.HomeNavbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.783);
+  border-radius: 50px;
+  width: 100px;
+  height: 40px;
+}
+
+.HomeNavbar:hover {
+  background-color: rgba(0, 0, 0, 0.626);
+  cursor: pointer;
+}
+
+.HomeNavbar:active {
+  background-color: rgba(0, 0, 0, 0.518);
+}
+
+.HomeNavbar:active > a {
+  color: rgb(192, 200, 200);
+}
+
+.ProfileNavbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.783);
+  border-radius: 50px;
+  width: 100px;
+  height: 40px;
+}
+
+.ProfileNavbar:hover {
+  background-color: rgba(0, 0, 0, 0.626);
+  cursor: pointer;
+}
+
+.ProfileNavbar:active {
+  background-color: rgba(0, 0, 0, 0.518);
+}
+
+.ProfileNavbar:active > a {
+  color: rgb(192, 200, 200);
+}
+
+.ContactNavbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.783);
+  border-radius: 50px;
+  width: 100px;
+  height: 40px;
+}
+
+.ContactNavbar:hover {
+  background-color: rgba(0, 0, 0, 0.626);
+  cursor: pointer;
+}
+
+.ContactNavbar:active {
+  background-color: rgba(0, 0, 0, 0.518);
+}
+
+.ContactNavbar:active > a {
+  color: rgb(192, 200, 200);
+}

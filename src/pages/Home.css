@@ -17,9 +17,26 @@
   height: 80px;
   border: 1px transparent black;
   text-align: center;
+  color: rgb(0, 0, 0);
 }
 
 .homebutton {
-  margin-top: 15px;
-  width: 100px
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.783);
+  border-radius: 50px;
+  width: 180px;
+  height: 40px;
+  color: azure;
+}
+
+.homebutton:hover {
+  background-color: rgba(0, 0, 0, 0.626);
+  cursor: pointer;
+}
+
+.homebutton:active {
+  background-color: rgba(0, 0, 0, 0.518);
+  color: rgba(240, 255, 255, 0.746);
 }
